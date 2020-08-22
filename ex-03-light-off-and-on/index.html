@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Test JavaScript</title>
+    <style>
+        h1 {
+            font-family: fantasy;
+            color: #3358FF;
+            }
+
+        h2 {
+        font-family: fantasy;
+        font-style: initial;
+        font-size: xx-large;
+        color: #F70B1D;
+            }
+
+    </style>
+    <script>
+        var broken = false;
+        function changeLight(type) {
+            if (type == 1) {
+                file = "lampada-acesa.jpg";
+            }
+            if (type == 2) {
+                file = "lampada-apagada.jpg";
+            }
+            if (type == 3) {
+                file = "lampada-quebrada.jpg";
+            }
+            if (!broken) {
+                document.getElementById("light").src = file;
+                if (type == 3) {
+                    broken = true;
+                }
+            }
+        }
+        
+    </script>
+</head>
+<body>
+    <h1>Be careful!</h1>
+    <h1>Now, turn the light ON.</h1>
+    <h2>If you break it, reload this page.</h2>
+    <img src="lampada-apagada.jpg" id="light" onmousemove="changeLight(1)" onmouseout="changeLight(2)" onclick="changeLight(3)"/>
+</body>
+</html>

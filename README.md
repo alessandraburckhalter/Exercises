@@ -1,4 +1,8 @@
-# <p align="center"> Exercises :books:
+# <div align="center"> Exercises :books: </div>
+
+<p align="center">
+<img src="https://img.shields.io/github/languages/count/alessandraburckhalter/exercises?color=red"> <img src="https://img.shields.io/github/languages/top/alessandraburckhalter/exercises?color=red"> <img src="https://img.shields.io/github/last-commit/alessandraburckhalter/exercises?color=red"></p>
+<br>
 
 ## :book: About the repository
 This repository was created to store the exercises developed during the programming learning journey.

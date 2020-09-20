@@ -9,6 +9,7 @@ This repository was created to store the exercises developed during the programm
 <br>
 <br>
 ## :clipboard: Exercise list
+
 - [x] ex-01-time-of-day
 - [x] ex-02-counting<br>
 - [x] ex-03-light-off-and-on<br>
@@ -20,6 +21,10 @@ This repository was created to store the exercises developed during the programm
 - [x] ex-09-counter-function.py<br> 
 - [x] ex-10-higher-number.py<br> 
 - [x]  ex-11-grocery-list.py<br> 
+
+**:open_file_folder: Algorithms**
+- [x] ex-01-palindrome.js
+
 <br>
 
 ## :wave: Let's connect!
